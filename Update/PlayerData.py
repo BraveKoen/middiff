@@ -2,7 +2,7 @@ import pickle
 from riotwatcher import LolWatcher, ApiError
 import os
 import sys
-lol_watcher = LolWatcher("RGAPI-5e4fd7df-2085-4f7b-8b64-f696fd014c39")
+lol_watcher = LolWatcher("")
 class Player():
     matchHistory = []
     matchData = []

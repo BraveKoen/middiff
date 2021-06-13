@@ -10,7 +10,7 @@ my_region = 'euw1'
 try:
    conn = mariadb.connect(
       user="u94708p89384_DiscordBot",
-      password="Avrodite1!",
+      password="",
       host="185.104.29.102",
       database="u94708p89384_DiscordBot")
 except mariadb.Error as e:
